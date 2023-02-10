@@ -1,0 +1,76 @@
+body{
+	text-align: center;
+	background: linear-gradient(#a2d2ff, #EFB0C9);
+	color: #ffffff;
+	font-family: myFirstFont;
+}
+#majah{
+	border-radius: 50%;
+	border: 5px solid #EFB0C9;
+	width: 100px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(HappyMonkey-Regular.ttf);
+}
+
+#bday-age {
+	background: #EFB0C9;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+#bday-date {
+	margin: 0px;
+	background: #EFB0C9;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reward-section {
+	margin-top: 50px;
+}
+.reward-title: {
+	margin: 0px;
+}
+.reward-image {
+	margin: 20px auto;
+	height: 300px;
+	width: 300px;
+	border: 6px solid white;
+	border-radius:10px;
+	background-image: url("gift.jpg");
+	background-size: cover;
+}
+#bless:hover {
+	background-image: url("bless.webp");
+}
+
+#cool:hover {
+	background-image: url("cool.webp");
+}
+
+#cheers:hover {
+	background-image: url(cheers.webp);
+}
+#cheers {
+	width: 500px;
+	height: 300px;
+	background-size: cover;
+}
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+a {
+	color: white;
+}
+#footer {
+    font-style: italic;
+    width: 500px;
+    margin: 40px auto 20px;
+}
